@@ -25,6 +25,7 @@ place electrodes according to below image
 ![Electrode Placement](electrodes.png)
 
 i tried with this setup of electrodes and it's working perfectly 👍
+
 ---
 
 ## 🧰 Required Hardware
@@ -34,7 +35,6 @@ i tried with this setup of electrodes and it's working perfectly 👍
 - Electrodes (snap gel or dry)  
 - Android phone (USB OTG supported)  
 - USB OTG cable  
-- Breadboard + components (resistors, capacitors, op-amps)
 
 ---
 
@@ -42,7 +42,7 @@ i tried with this setup of electrodes and it's working perfectly 👍
 
 The following hand-drawn schematic shows the EEG circuit + power supply:
 
-![EEG Circuit](circuit diagram .jpg)
+![EEG Circuit](circuit diagram.jpg)
 
 ---
 
