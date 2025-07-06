@@ -175,13 +175,21 @@ python abd57.py
 You will see:
 
 🧬 Quantum-Level EEG Decoder
+
 [1] Record New Alphabet Samples
+
 [2] Train from Existing Directory
+
 [3] Predict in Real-Time
+
 [4] Switch Model (Now: LSTM)
+
 [5] Clear History
+
 [6] Record Custom Word
+
 [7] Discover Unique Patterns
+
 [8] Exit
 
 
@@ -196,7 +204,7 @@ Think of it strongly during the recording session
 Once training completes automatically, go to [3] Predict in Real-Time
 
 
-> ⚠️ Note: Accuracy is best with 10–15 trained words only. More than that causes model confusion. Strong mental focus during training improves accuracy.
+> ⚠️ Note: Accuracy is best with 10–15 trained words only. More than that causes model confusion. Strong mental focus during training/predictions improves accuracy even above 20 trained words 🪽
 
 
 
@@ -205,23 +213,23 @@ Once training completes automatically, go to [3] Predict in Real-Time
 
 📂 Files Included
 
-File	Description
+File:Description
 
-abd57.py	EEG decoder, trainer & real-time predictor
+abd57.py:
+EEG decoder, trainer & real-time predictor
 
-eeg_p300.ino	Arduino EEG sampling code
+abd.ino/abd.hex:
+Arduino EEG sampling code
 
-README.md	This documentation
-
+README.md:
+This documentation
 
 
 ---
 
-🧠 Author
+# ☕Auther
 
-Made with ♥ by Mikey-7x
-For research & educational use only.
-
+Made with ❤️ by **[mikey-7x](https://github.com/mikey-7x)** For research & educational use only.🚀🔥  
 
 ---
 
