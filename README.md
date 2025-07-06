@@ -3,11 +3,11 @@
   <img src="https://img.shields.io/badge/license-Educational%20Use%20Only-red?style=for-the-badge" alt="License Badge"/>
 </p>
 
-# Copyright © 2025 Yogesh R. Chauhan
-# Project Synapse – Brainwave Decoder
-# This project is licensed for personal and educational use only.
-# Commercial use, resale, or modification for profit is strictly prohibited.
-# Unauthorized use will result in legal action and takedown notices.
+> - Copyright © 2025 Yogesh R. Chauhan
+- Project Synapse – Brainwave Decoder
+- This project is licensed for personal and educational use only.
+- Commercial use, resale, or modification for profit is strictly prohibited.
+- Unauthorized use will result in legal action and takedown notices.
 
 
 # Project Synapse: Real-Time Brainwave Decoder with Android
