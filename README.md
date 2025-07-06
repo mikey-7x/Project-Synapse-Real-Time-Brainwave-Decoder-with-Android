@@ -231,6 +231,8 @@ This documentation
 
 Made with ❤️ by **[mikey-7x](https://github.com/mikey-7x)** For research & educational use only.🚀🔥  
 
+[other repository](https://github.com/mikey-7x?tab=repositories)
+
 ---
 
 ### 🛑 Disclaimer
