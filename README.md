@@ -197,7 +197,7 @@ You will see:
 [8] Exit
 
 
-
+---
 
 ### 🎓 How to Use
 
@@ -212,7 +212,7 @@ Once training completes automatically, go to [3] Predict in Real-Time
 
 
 
-
+---
 
 
 ### 📂 Files Included
@@ -229,7 +229,7 @@ README.md:
 This documentation
 
 
-
+---
 
 ### ☕Auther
 
