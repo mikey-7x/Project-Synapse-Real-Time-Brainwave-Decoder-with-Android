@@ -7,8 +7,6 @@
 
 Build a DIY EEG system to capture and decode your brain’s electrical activity into meaningful words in real-time — all using **own eeg circuit**,**Arduino**, **Android**, and **Arch Linux inside Termux**.
 
-#![mikey](mikey.png)
-
 
 ## 📸 Electrode Placement
 
