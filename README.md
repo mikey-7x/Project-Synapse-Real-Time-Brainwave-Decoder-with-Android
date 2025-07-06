@@ -42,7 +42,7 @@ i tried with this setup of electrodes and it's working perfectly 👍
 
 The following hand-drawn schematic shows the EEG circuit + power supply:
 
-![EEG Circuit](circuit diagram.jpg)
+![EEG Circuit](circuit-diagram.jpg)
 
 ---
 
@@ -56,6 +56,7 @@ Follow the circuit in the image above and connect:
 - `T3 → Fpz` (optional, can be left unconnected)
 
 ### 📱 2. **Install Termux & Packages on Android**
+[📲 Download Termux (F-Droid)](https://f-droid.org/en/packages/com.termux/)
 
 ```bash
 termux-setup-storage
