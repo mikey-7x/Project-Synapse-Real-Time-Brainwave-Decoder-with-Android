@@ -68,7 +68,7 @@ pkg install termux-x11-nightly pulseaudio -y
 
 ---
 
-🐧 3. Install Arch Linux via proot-distro
+### 🐧 3. Install Arch Linux via proot-distro
 ```
 pkg install proot-distro -y
 proot-distro install archlinux
@@ -82,7 +82,7 @@ pacman -Syu python python-pip git base-devel wget --noconfirm
 
 ---
 
-🧪 4. Setup Python Virtual Environment with Pyenv and install tensorflow 
+### 🧪 4. Setup Python Virtual Environment with Pyenv and install tensorflow 
 
 Follow this repository for installing pyenv and tensorflow in Termux or Arch or use below commands.
 
@@ -97,7 +97,7 @@ pyenv activate tf-env
 
 ---
 
-📦 5. Install Python Dependencies
+### 📦 5. Install Python Dependencies
 ```
 pip install --upgrade pip
 pip install numpy==1.24.3 pandas scipy joblib scikit-learn tensorflow==2.13.1
@@ -105,7 +105,7 @@ pip install numpy==1.24.3 pandas scipy joblib scikit-learn tensorflow==2.13.1
 
 ---
 
-🔌 6. Upload Arduino Sketch to Uno
+### 🔌 6. Upload Arduino Sketch to Uno
 
 Use the following code:
 ```
@@ -140,7 +140,7 @@ void loop() {
 
 ---
 
-📲 7. Connect Android with Arduino (via OTG)
+### 📲 7. Connect Android with Arduino (via OTG)
 
 Install TCPUART APP from [tcpuart](https://play.google.com/store/apps/details?id=com.hardcodedjoy.tcpuart)
 
@@ -157,7 +157,7 @@ Press Start
 
 ---
 
-🧠 8. Run EEG Decoder Software in archlinux in termux 
+### ☣️ 8. Run EEG Decoder Software in archlinux in termux 
 
 Clone this repo and activate virtualenv:
 ```
@@ -195,7 +195,7 @@ You will see:
 
 ---
 
-🎓 How to Use
+### 🎓 How to Use
 
 Use [6] Record Custom Word → enter a word like yes or go
 
@@ -211,7 +211,7 @@ Once training completes automatically, go to [3] Predict in Real-Time
 
 ---
 
-📂 Files Included
+### 📂 Files Included
 
 File:Description
 
@@ -227,7 +227,7 @@ This documentation
 
 ---
 
-# ☕Auther
+### ☕Auther
 
 Made with ❤️ by **[mikey-7x](https://github.com/mikey-7x)** For research & educational use only.🚀🔥  
 
