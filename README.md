@@ -86,7 +86,7 @@ pacman -Syu python python-pip git base-devel wget --noconfirm
 
 Follow this repository for installing pyenv and tensorflow in Termux or Arch or use below commands.
 
-[ Tensorflow in Android](https://github.com/mikey-7x/Tensorflow-in-Android)
+[Tensorflow in Android](https://github.com/mikey-7x/Tensorflow-in-Android)
 
 Create and activate the virtual environment:
 ```
@@ -138,15 +138,11 @@ void loop() {
 }
 ```
 
-
-[📄 arduino code](https://raw.githubusercontent.com/mikey-7x/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/refs/heads/main/abd.ino)
-
-
 ---
 
 📲 7. Connect Android with Arduino (via OTG)
 
-Install TCP UART
+Install TCPUART APP from [tcpuart](https://play.google.com/store/apps/details?id=com.hardcodedjoy.tcpuart)
 
 Set baud rate: 9600
 
@@ -154,15 +150,14 @@ Press Connect
 
 Allow USB permission & select Server Mode
 
-Port: 8080
+set Port: 8080
 
 Press Start
 
 
-
 ---
 
-🧠 8. Run EEG Decoder Software
+🧠 8. Run EEG Decoder Software in archlinux in termux 
 
 Clone this repo and activate virtualenv:
 ```
