@@ -24,6 +24,7 @@ place electrodes according to below image
 
 ![Electrode Placement](electrodes.png)
 
+i tried with this setup of electrodes and it's working perfectly 👍
 ---
 
 ## 🧰 Required Hardware
