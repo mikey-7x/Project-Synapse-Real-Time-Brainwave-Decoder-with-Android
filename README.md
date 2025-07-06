@@ -86,7 +86,7 @@ pacman -Syu python python-pip git base-devel wget --noconfirm
 
 Follow this repository for installing pyenv and tensorflow in Termux or Arch or use below commands.
 
-[Tensorflow in Android](https://github.com/mikey-7x/Tensorflow-in-Android)
+[ Tensorflow in Android](https://github.com/mikey-7x/Tensorflow-in-Android)
 
 Create and activate the virtual environment:
 ```
@@ -139,7 +139,7 @@ void loop() {
 ```
 
 
-📄 Download .ino file here
+[📄 arduino code](https://raw.githubusercontent.com/mikey-7x/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/refs/heads/main/abd.ino)
 
 
 ---
