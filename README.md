@@ -42,7 +42,7 @@ i tried with this setup of electrodes and it's working perfectly 👍
 
 The following hand-drawn schematic shows the EEG circuit + power supply:
 
-![EEG Circuit](circuit-diagram.jpg)
+![EEG Circuit](circuit diagram.jpg)
 
 ---
 
@@ -82,9 +82,11 @@ pacman -Syu python python-pip git base-devel wget --noconfirm
 
 ---
 
-🧪 4. Setup Python Virtual Environment with Pyenv
+🧪 4. Setup Python Virtual Environment with Pyenv and install tensorflow 
 
-Follow this repository for installing pyenv in Termux or Arch.
+Follow this repository for installing pyenv and tensorflow in Termux or Arch or use below commands.
+
+[Tensorflow in Android](https://github.com/mikey-7x/Tensorflow-in-Android)
 
 Create and activate the virtual environment:
 ```
