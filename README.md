@@ -2,10 +2,6 @@
 
 Build a DIY EEG system to capture and decode your brain’s electrical activity into meaningful words in real-time — all using **own eeg circuit**,**Arduino**, **Android**, and **Arch Linux inside Termux**.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mikey-7x/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/refs/heads/main/mikey.png" width="100%">
-</p>
-
 [mikey](mikey.png)
 
 
