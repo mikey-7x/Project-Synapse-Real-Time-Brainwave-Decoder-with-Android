@@ -211,9 +211,7 @@ Once training completes automatically, go to [3] Predict in Real-Time
 > ⚠️ Note: Accuracy is best with 10–15 trained words only. More than that causes model confusion. Strong mental focus during training/predictions improves accuracy even above 20 trained words 🪽
 
 
-
 ---
-
 
 ### 📂 Files Included
 
@@ -231,15 +229,31 @@ This documentation
 
 ---
 
+### 🛑 Disclaimer
+
+This is not a medical device. It’s an experimental research tool for signal processing and brain-computer interface (BCI) exploration.
+
+
+---
+
+### 📜 License
+
+This repository is released under a **custom license** for **educational and academic use only**.
+
+- 🚫 Commercial use or resale of any part (code, circuit, models, diagrams) is strictly prohibited.
+- ✅ Use in college/university research, projects, and learning is permitted.
+- 📩 Contact the author for special permissions or collaboration.
+
+See the full [LICENSE](./LICENSE) file for details.
+
+© 2025 Yogesh R. Chauhan. All rights reserved.
+
+---
+
 ### ☕Auther
 
 Made with ❤️ by **[mikey-7x](https://github.com/mikey-7x)** For research & educational use only.🚀🔥  
 
 [other repository](https://github.com/mikey-7x?tab=repositories)
 
----
-
-### 🛑 Disclaimer
-
-This is not a medical device. It’s an experimental research tool for signal processing and brain-computer interface (BCI) exploration.
 
