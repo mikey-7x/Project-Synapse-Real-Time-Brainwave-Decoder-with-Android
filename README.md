@@ -173,8 +173,8 @@ Press Start
 Clone this repo and activate virtualenv:
 ```
 cd ~
-git clone https://github.com/your-username/eeg-p300
-cd eeg-p300
+git clone https://github.com/mikey-7x/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android.git
+cd Project-Synapse-Real-Time-Brainwave-Decoder-with-Android
 pyenv activate tf-env
 ```
 
