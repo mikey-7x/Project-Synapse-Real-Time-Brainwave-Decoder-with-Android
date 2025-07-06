@@ -6,7 +6,7 @@ Build a DIY EEG system to capture and decode your brain’s electrical activity 
   <img src="https://raw.githubusercontent.com/mikey-7x/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/refs/heads/main/mikey.png" width="100%">
 </p>
 
----
+
 
 ## 📸 Electrode Placement
 
@@ -30,7 +30,7 @@ place electrodes according to below image
 
 i tried with this setup of electrodes and it's working perfectly 👍
 
----
+
 
 ## 🧰 Required Hardware
 
@@ -40,7 +40,7 @@ i tried with this setup of electrodes and it's working perfectly 👍
 - Android phone (USB OTG supported)  
 - USB OTG cable  
 
----
+
 
 ## 🪲 Circuit Diagram
 
@@ -48,7 +48,7 @@ The following hand-drawn schematic shows the EEG circuit + power supply:
 
 ![EEG Circuit](circuit%20diagram.jpg)
 
----
+
 
 ## 🛠️ Step-by-Step Setup Guide
 
@@ -70,7 +70,7 @@ pkg install tur-repo x11-repo -y
 pkg install termux-x11-nightly pulseaudio -y
 ```
 
----
+
 
 ### 🐧 3. Install Arch Linux via proot-distro
 ```
@@ -84,7 +84,7 @@ Inside Arch:
 pacman -Syu python python-pip git base-devel wget --noconfirm
 ```
 
----
+
 
 ### 🧪 4. Setup Python Virtual Environment with Pyenv and install tensorflow 
 
@@ -99,7 +99,7 @@ pyenv virtualenv 3.10.13 tf-env
 pyenv activate tf-env
 ```
 
----
+
 
 ### 📦 5. Install Python Dependencies
 ```
@@ -107,7 +107,7 @@ pip install --upgrade pip
 pip install numpy==1.24.3 pandas scipy joblib scikit-learn tensorflow==2.13.1
 ```
 
----
+
 
 ### 🔌 6. Upload Arduino Sketch to Uno
 
@@ -142,7 +142,7 @@ void loop() {
 }
 ```
 
----
+
 
 ### 📲 7. Connect Android with Arduino (via OTG)
 
@@ -159,7 +159,7 @@ set Port: 8080
 Press Start
 
 
----
+
 
 ### ☣️ 8. Run EEG Decoder Software in archlinux in termux 
 
@@ -197,7 +197,7 @@ You will see:
 [8] Exit
 
 
----
+
 
 ### 🎓 How to Use
 
@@ -213,7 +213,7 @@ Once training completes automatically, go to [3] Predict in Real-Time
 
 
 
----
+
 
 ### 📂 Files Included
 
@@ -229,7 +229,7 @@ README.md:
 This documentation
 
 
----
+
 
 ### ☕Auther
 
