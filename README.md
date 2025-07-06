@@ -12,7 +12,11 @@ Use **3 electrodes** based on the following 10-20 system positions:
 - **Fpz** → `T3` (above nose, optional)
 - **Mastoid** → `T2` (behind ear, ground/reference)
 
-![Electrode Placement](https://user-images.githubusercontent.com/example/pz-fpz-mastoid.png)
+![Electrode Placement](e.jpeg)
+
+OR
+
+![Electrode Placement](electrodes.png)
 
 ---
 
@@ -31,7 +35,7 @@ Use **3 electrodes** based on the following 10-20 system positions:
 
 The following hand-drawn schematic shows the EEG circuit + power supply:
 
-![EEG Circuit](https://user-images.githubusercontent.com/example/eeg-circuit.png)
+![EEG Circuit](circuit diagram .jpg)
 
 ---
 
