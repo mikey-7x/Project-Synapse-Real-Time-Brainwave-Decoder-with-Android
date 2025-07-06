@@ -1,3 +1,10 @@
+// Copyright © 2025 Yogesh R. Chauhan
+// Project Synapse – Brainwave Decoder
+// This project is licensed for personal and educational use only.
+// Commercial use, resale, or modification for profit is strictly prohibited.
+// Unauthorized use will result in legal action and takedown notices.
+
+
 // EEG P300 Arduino v1.0 — sends raw samples at FS via Serial
 #define EEG_PIN A0
 #define FS 250
