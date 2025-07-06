@@ -1,3 +1,9 @@
+# Copyright © 2025 Yogesh R. Chauhan
+# Project Synapse – Brainwave Decoder
+# This project is licensed for personal and educational use only.
+# Commercial use, resale, or modification for profit is strictly prohibited.
+# Unauthorized use will result in legal action and takedown notices.
+
 # === Imports ===
 import os, time, socket, json
 import numpy as np
