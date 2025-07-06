@@ -42,7 +42,7 @@ i tried with this setup of electrodes and it's working perfectly 👍
 
 The following hand-drawn schematic shows the EEG circuit + power supply:
 
-![EEG Circuit](circuit diagram.jpg)
+![EEG Circuit](circuit%20diagram.jpg)
 
 ---
 
@@ -233,7 +233,7 @@ Made with ❤️ by **[mikey-7x](https://github.com/mikey-7x)** For research & e
 
 ---
 
-🛑 Disclaimer
+### 🛑 Disclaimer
 
 This is not a medical device. It’s an experimental research tool for signal processing and brain-computer interface (BCI) exploration.
 
