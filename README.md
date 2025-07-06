@@ -1,4 +1,8 @@
 ![mikey](mikey.png)
+<p align="center">
+  <img src="https://img.shields.io/badge/license-Educational%20Use%20Only-red?style=for-the-badge" alt="License Badge"/>
+</p>
+
 # Project Synapse: Real-Time Brainwave Decoder with Android
 
 Build a DIY EEG system to capture and decode your brain’s electrical activity into meaningful words in real-time — all using **own eeg circuit**,**Arduino**, **Android**, and **Arch Linux inside Termux**.
