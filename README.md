@@ -11,15 +11,9 @@
 
 
 # Project Synapse: Real-Time Brainwave Decoder with Android
+[![AUR](https://img.shields.io/aur/version/mikey-7x-abd57?style=for-the-badge&logo=arch-linux&color=1793d1)](https://aur.archlinux.org/packages/mikey-7x-abd57)
 
 Build a DIY EEG system to capture and decode your brain’s electrical activity into meaningful words in real-time — all using **own eeg circuit**,**Arduino**, **Android**, and **Arch Linux inside Termux**.
-
-# Project Synapse: Real-Time Brainwave Decoder
-
-[![AUR](https://img.shields.io/aur/version/mikey-7x-abd57?style=for-the-badge&logo=arch-linux&color=1793d1)](https://aur.archlinux.org/packages/mikey-7x-abd57)
-
-
-[![AUR](https://img.shields.io/aur/version/mikey-7x-abd57?style=for-the-badge&logo=arch-linux&color=1793d1)](https://aur.archlinux.org/packages/mikey-7x-abd57)
 
 
 ## 📸 Electrode Placement
