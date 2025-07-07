@@ -12,17 +12,13 @@
 
 # Project Synapse: Real-Time Brainwave Decoder with Android
 [![AUR](https://img.shields.io/aur/version/mikey-7x-abd57?style=for-the-badge&logo=arch-linux&color=1793d1)](https://aur.archlinux.org/packages/mikey-7x-abd57)
+![image](https://user-images.githubusercontent.com/71381110/168717813-ae823d9f-6f85-4092-8171-9fa0b529de5e.png)
 
 Build a DIY EEG system to capture and decode your brain’s electrical activity into meaningful words in real-time — all using **own eeg circuit**,**Arduino**, **Android**, and **Arch Linux inside Termux**.
 
 That's amazing! 🎉 Now let's proudly add the APT installation command to your README.md in a professional, attractive, and beginner-friendly way.
 
-
 ---
-
-✅ Markdown for README.md
-
-Paste this into your README.md file on GitHub:
 
 ---
 
@@ -32,17 +28,13 @@ You can now install **Project Synapse** directly using `apt` like any official p
 Works on **Debian, Ubuntu, Kali, Termux-Debian**, and other APT-based systems.
 
 ### 🔧 Step 1: Add the APT Repository
-
-```bash
-echo "deb [trusted=yes] https://mikey-7x.github.io/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/ ./" | sudo tee /etc/apt/sources.list.d/mikey-7x.list
-```
-🔄 Step 2: Update APT Sources
 ```
 sudo apt update
+sudo apt install mikey-7x-abd7x
 ```
-🚀 Step 3: Install the Package
+🚀run:
 ```
-sudo apt install mikey-7x-abd57
+mikey-7x-abd7x
 ```
 
 ---
@@ -64,13 +56,6 @@ sudo apt install mikey-7x-abd57
 🌐 Hosted on GitHub Pages via gh-pages branch
 📡 Global installation support without manual file downloads
 
-
----
-
-### ✅ Result in GitHub Looks Like:
-
-![image](https://user-images.githubusercontent.com/71381110/168717813-ae823d9f-6f85-4092-8171-9fa0b529de5e.png)
-
 ---
 
 ## 📦 Install via APT (One-Line Command)
@@ -84,12 +69,6 @@ Works on:
 > ✅ Any APT-based ARM64 or desktop Linux
 
 ---
-
-### 🔧 Add the APT Repository
-
-```bash
-echo "deb [trusted=yes] https://mikey-7x.github.io/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/ ./" | sudo tee /etc/apt/sources.list.d/mikey-7x.list
-```
 
 ## 📸 Electrode Placement
 
