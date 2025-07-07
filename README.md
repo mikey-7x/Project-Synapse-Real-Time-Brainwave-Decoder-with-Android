@@ -165,7 +165,15 @@ set Port: 8080
 
 Press Start
 
-
+To check Arduino's signal install:
+```
+wget https://raw.githubusercontent.com/mikey-7x/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/refs/heads/main/q3.py
+```
+Run:
+```
+python q3.py
+```
+if any numerical values shown that meas signal coming perfectly.now you can run actual abd57.py (advance brainwave decoder 57) script.👍
 
 
 ### ☣️ 8. Run EEG Decoder Software in archlinux in termux 
