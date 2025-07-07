@@ -15,6 +15,25 @@
 
 Build a DIY EEG system to capture and decode your brain’s electrical activity into meaningful words in real-time — all using **own eeg circuit**,**Arduino**, **Android**, and **Arch Linux inside Termux**.
 
+---
+
+## 📦 Install via APT (One-Line Command)
+
+[![APT-Repo](https://img.shields.io/badge/Install-APT-blue?style=for-the-badge&logo=debian&color=cc0000)](https://mikey-7x.github.io/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/)
+
+You can now install **Project Synapse** like a regular Debian package!
+
+Works on:
+> ✅ Debian / Ubuntu / Kali Linux / Termux-Debian  
+> ✅ Any APT-based ARM64 or desktop Linux
+
+---
+
+### 🔧 Add the APT Repository
+
+```bash
+echo "deb [trusted=yes] https://mikey-7x.github.io/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/ ./" | sudo tee /etc/apt/sources.list.d/mikey-7x.list
+```
 
 ## 📸 Electrode Placement
 
