@@ -15,10 +15,7 @@
 
 Build a DIY EEG system to capture and decode your brain’s electrical activity into meaningful words in real-time — all using **own eeg circuit**,**Arduino**, **Android**, and **Arch Linux inside Termux**.
 
-## 📦 Install via APT (One-Line Command)
-
-[![Install mikey-7x-abd57 (APT / YAY)](https://img.shields.io/badge/Install-mikey--7x--abd57-blue?style=for-the-badge&logo=linux&logoColor=white&labelColor=1793d1&color=cc0000)](https://mikey-7x.github.io/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/mikey-7x-abd57_0.0.1-1_all.deb)
-
+📦 Quick Install via APT/yay (One-Line Command)and upload Arduino code in your Arduino uno that's it(do not need to see setup instructions if you use below one line automated command).
 
 [![APT-Repo](https://img.shields.io/badge/Install-APT-blue?style=for-the-badge&logo=debian&color=cc0000)](https://mikey-7x.github.io/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/)
 
@@ -28,20 +25,27 @@ Works on:
 > ✅ Debian / Ubuntu / Kali Linux / Termux-Debian  
 > ✅ Any APT-based ARM64 or desktop Linux
 
-
----
-
-## 📦 Install via APT (One-Line Command)
-
 You can now install **Project Synapse** directly using `apt` like any official package!  
 Works on **Debian, Ubuntu, Kali, Termux-Debian**, and other APT-based systems.
 
-### 🔧 Step 1: Add the APT Repository
+🔧 for debian,Ubuntu,kali (apt):
 ```
 sudo apt update
 sudo apt install mikey-7x-abd7x
 ```
-🚀run:
+🔧for archlinux, manjaro (yay):
+```
+# 1. Install required packages
+sudo pacman -S --needed git base-devel
+# 2. Clone the yay AUR repository
+git clone https://aur.archlinux.org/yay.git
+# 3. Change into the yay directory
+cd yay
+# 4. Build and install yay
+makepkg -si
+yay -S --noconfirm mikey-7x-abd57
+```
+🚀run(both apt/yay):
 ```
 mikey-7x-abd7x
 ```
