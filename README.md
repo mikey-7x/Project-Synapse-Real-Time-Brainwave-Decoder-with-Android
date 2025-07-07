@@ -17,6 +17,9 @@ Build a DIY EEG system to capture and decode your brain’s electrical activity 
 
 ## 📦 Install via APT (One-Line Command)
 
+[![Install mikey-7x-abd57 (APT / YAY)](https://img.shields.io/badge/Install-mikey--7x--abd57-blue?style=for-the-badge&logo=linux&logoColor=white&labelColor=1793d1&color=cc0000)](https://mikey-7x.github.io/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/mikey-7x-abd57_0.0.1-1_all.deb)
+
+
 [![APT-Repo](https://img.shields.io/badge/Install-APT-blue?style=for-the-badge&logo=debian&color=cc0000)](https://mikey-7x.github.io/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/)
 
 You can now install **Project Synapse** like a regular Debian package!
