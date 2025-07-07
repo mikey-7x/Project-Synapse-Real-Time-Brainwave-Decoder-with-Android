@@ -13,6 +13,7 @@
 # Project Synapse: Real-Time Brainwave Decoder with Android
 [![AUR](https://img.shields.io/aur/version/mikey-7x-abd57?style=for-the-badge&logo=arch-linux&color=1793d1)](https://aur.archlinux.org/packages/mikey-7x-abd57)
 
+[![Download .deb](https://img.shields.io/badge/Download-.deb-blue?style=for-the-badge&logo=linux&color=772953)](https://mikey-7x.github.io/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/mikey-7x-abd57_0.0.1-1_all.deb)
 Build a DIY EEG system to capture and decode your brain’s electrical activity into meaningful words in real-time — all using **own eeg circuit**,**Arduino**, **Android**, and **Arch Linux inside Termux**.
 
 ## 📦 Install via APT (One-Line Command)
@@ -45,25 +46,12 @@ mikey-7x-abd7x
 
 ---
 
-🧠 What's Inside?
-
-✔️ Real-Time EEG Thought Decoder
-✔️ Automatic Setup Script
-✔️ ARM64 / Android / Termux / Desktop Linux Supported
-✔️ Built with ❤️ by mikey-7x
-
-
----
-
 🔗 Direct download of .deb:
 
 📥 mikey-7x-abd57_0.0.1-1_all.deb
 
 🌐 Hosted on GitHub Pages via gh-pages branch
-📡 Global installation support without manual file downloads
-
----
-
+📡 Global installation support without manual file download 
 
 ---
 
