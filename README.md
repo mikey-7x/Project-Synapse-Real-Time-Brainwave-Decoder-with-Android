@@ -31,7 +31,7 @@ Works on **Debian, Ubuntu, Kali, Termux-Debian**, and other APT-based systems.
 🔧 for debian,Ubuntu,kali etc(apt):
 ```
 sudo apt update
-sudo apt install mikey-7x-abd7x
+sudo apt install mikey-7x-abd57
 ```
 🔧for archlinux, manjaro etc(yay):
 ```
