@@ -50,6 +50,13 @@ yay -S --noconfirm mikey-7x-abd57
 mikey-7x-abd7x
 ```
 
+OR 
+💦Universal shell script install:
+```
+wget https://raw.githubusercontent.com/mikey-7x/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/refs/heads/main/mikey.sh
+mikey-7x-abd57
+```
+
 ---
 
 🔗 Direct download of .deb:
