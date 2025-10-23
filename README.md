@@ -17,18 +17,15 @@ Build a DIY EEG system to capture and decode your brain’s electrical activity 
 
 Quick Install via APT/yay (One-Line Command) and upload Arduino code in your Arduino uno that's it (do not need to see setup instructions if you use below one line automated command).
 
-[![APT-Repo](https://img.shields.io/badge/Install-APT-blue?style=for-the-badge&logo=debian&color=cc0000)](https://mikey-7x.github.io/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/)
-
-
 ---
 
 <div align="center">
 
 <kbd>
 
-# ⚡ `abd57e.sh` — The Next Evolution in Real-Time Signal Processing
+⚡ `abd57e.sh` — The Next Evolution in Real-Time Signal Processing
 
-### ✨ What’s New
+✨ What’s New
 | ⚙️ Feature | 🔍 Description |
 |------------|----------------|
 | ⚡ Performance Boost | Executes up to 2× faster |
@@ -37,6 +34,7 @@ Quick Install via APT/yay (One-Line Command) and upload Arduino code in your Ard
 | 🪶 Easy Use | Single-command execution |
 
 > ```bash
+> wget https://raw.githubusercontent.com/mikey-7x/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/refs/heads/main/abd57e.py
 > bash abd57e.sh
 > ```
 
@@ -47,6 +45,8 @@ _“Project Synapse — Technology Beyond Boundaries.”_
 </div>
 
 ---
+
+[![APT-Repo](https://img.shields.io/badge/Install-APT-blue?style=for-the-badge&logo=debian&color=cc0000)](https://mikey-7x.github.io/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/)
 
 You can now install **Project Synapse** directly using `apt` like any official package!  
 Works on **Debian, Ubuntu, Kali, Termux-Debian**, and other APT-based systems.
