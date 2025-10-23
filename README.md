@@ -21,37 +21,32 @@ Quick Install via APT/yay (One-Line Command) and upload Arduino code in your Ard
 
 
 ---
-# ✨ Introducing abd57e.sh — The Brainwave Revolution
 
-💥 New Version: abd57e.sh  
-💡 Platform: Android / Linux  
-🔬 Purpose: Real-Time Brainwave Measurement & Decoding
+<div align="center">
 
----
+<kbd>
 
-### 🚀 What’s New
-| Feature | Description |
-|----------|-------------|
-| ⚡ Performance Boost | Runs 2x faster than before |
-| 🧩 Smarter Analysis | Enhanced signal extraction using hybrid filters |
-| 🌘 Better Accuracy | More stable Alpha/Beta detection |
-| 🪶 Easy Use | One-command setup — no extra configuration |
+# ⚡ `abd57e.sh` — The Next Evolution in Real-Time Signal Processing
 
----
+### ✨ What’s New
+| ⚙️ Feature | 🔍 Description |
+|------------|----------------|
+| ⚡ Performance Boost | Executes up to 2× faster |
+| 🧩 Smarter Algorithms | Hybrid filtering for cleaner signals |
+| 🎯 Precision Upgrade | Better adaptive calibration |
+| 🪶 Easy Use | Single-command execution |
 
-> 🏁 **Run instantly:**
 > ```bash
 > bash abd57e.sh
 > ```
-> and feel the **next level of brainwave decoding**!
 
-🌱 _"Project Synapse — where biology meets code."_
+_“Project Synapse — Technology Beyond Boundaries.”_
 
-You can now install **Project Synapse** like a regular Debian package!
+</kbd>
 
-Works on:
-> ✅ Debian / Ubuntu / Kali Linux / Termux-Debian  
-> ✅ Any APT-based ARM64 or desktop Linux
+</div>
+
+---
 
 You can now install **Project Synapse** directly using `apt` like any official package!  
 Works on **Debian, Ubuntu, Kali, Termux-Debian**, and other APT-based systems.
