@@ -34,7 +34,7 @@ Quick Install via APT/yay (One-Line Command) and upload Arduino code in your Ard
 | 🪶 Easy Use | Single-command execution |
 
 > ```bash
->https://raw.githubusercontent.com/mikey-7x/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/refs/heads/main/abd57e.sh
+>wget https://raw.githubusercontent.com/mikey-7x/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/refs/heads/main/abd57e.sh
 >chmod +x abd57e.sh
 >./abd57e.sh
 > ```
