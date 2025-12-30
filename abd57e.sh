@@ -1,39 +1,61 @@
-
 #!/usr/bin/env bash
 set -e
 
 echo "🧬 Project Synapse — abd57e Full Builder"
 
 # -------------------------
-# 1. Install system deps
+# 0. Detect distro manager
 # -------------------------
-if command -v apt &> /dev/null; then
-    sudo apt update && sudo apt install -y \
-        git curl wget build-essential \
-        libbz2-dev libssl-dev libreadline-dev libsqlite3-dev \
-        zlib1g-dev tk-dev liblzma-dev \
-        cmake ninja-build libomp-dev
-elif command -v pacman &> /dev/null; then
-    sudo pacman -Sy --noconfirm \
-        base-devel git curl wget openssl zlib \
-        tk xz cmake ninja libomp
-elif command -v dnf &> /dev/null; then
-    sudo dnf install -y \
-        gcc gcc-c++ make git curl wget \
-        zlib-devel bzip2 bzip2-devel readline-devel \
-        sqlite sqlite-devel openssl-devel \
-        tk-devel xz-devel cmake ninja-build libomp-devel
-elif command -v emerge &> /dev/null; then
-    sudo emerge --ask \
-        dev-vcs/git dev-lang/python curl wget \
-        dev-util/cmake dev-util/ninja sys-devel/llvm
+PKG=""
+
+if command -v apt >/dev/null 2>&1; then
+    PKG="apt"
+elif command -v pacman >/dev/null 2>&1; then
+    PKG="pacman"
+elif command -v dnf >/dev/null 2>&1; then
+    PKG="dnf"
+elif command -v emerge >/dev/null 2>&1; then
+    PKG="emerge"
 else
     echo "❌ Unsupported Linux distro"
     exit 1
 fi
 
 # -------------------------
-# 2. Install pyenv
+# 1. Install system deps
+# -------------------------
+echo "📦 Installing system dependencies..."
+
+case "$PKG" in
+apt)
+    sudo apt update
+    sudo apt install -y \
+        git curl wget build-essential \
+        libbz2-dev libssl-dev libreadline-dev libsqlite3-dev \
+        zlib1g-dev tk-dev liblzma-dev \
+        cmake ninja-build libomp-dev
+    ;;
+pacman)
+    sudo pacman -Sy --noconfirm \
+        base-devel git curl wget openssl zlib \
+        tk xz cmake ninja libomp
+    ;;
+dnf)
+    sudo dnf install -y \
+        gcc gcc-c++ make git curl wget \
+        zlib-devel bzip2 bzip2-devel readline-devel \
+        sqlite sqlite-devel openssl-devel \
+        tk-devel xz-devel cmake ninja-build libomp-devel
+    ;;
+emerge)
+    sudo emerge --ask \
+        dev-vcs/git dev-lang/python curl wget \
+        dev-util/cmake dev-util/ninja sys-devel/llvm
+    ;;
+esac
+
+# -------------------------
+# 2. Install & init pyenv
 # -------------------------
 if [ ! -d "$HOME/.pyenv" ]; then
     curl https://pyenv.run | bash
@@ -41,6 +63,9 @@ fi
 
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
+
+# Load pyenv correctly on fresh shells
+eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
@@ -50,11 +75,11 @@ eval "$(pyenv virtualenv-init -)"
 PYTHON_VERSION="3.10.13"
 ENV_NAME="abd57e-env"
 
-if ! pyenv versions | grep -q "$PYTHON_VERSION"; then
+if ! pyenv versions --bare | grep -q "^$PYTHON_VERSION$"; then
     pyenv install "$PYTHON_VERSION"
 fi
 
-if ! pyenv versions | grep -q "$ENV_NAME"; then
+if ! pyenv virtualenvs --bare | grep -q "^$ENV_NAME$"; then
     pyenv virtualenv "$PYTHON_VERSION" "$ENV_NAME"
 fi
 
