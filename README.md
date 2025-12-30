@@ -70,7 +70,7 @@ yay -S --noconfirm mikey-7x-abd57
 ```
 🚀run(both apt/yay):
 ```
-mikey-7x-abd7x
+mikey-7x-abd57x
 ```
 
 OR 
