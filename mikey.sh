@@ -6,12 +6,21 @@ echo "🧠 Project Synapse: Universal Installer"
 echo "🔄 Updating system and installing dependencies..."
 
 # Detect package manager
+#if command -v apt &> /dev/null; then
+    #sudo apt update && sudo apt install -y git curl wget build-essential libbz2-dev libssl-dev libreadline-dev libsqlite3-dev zlib1g-dev
+#elif command -v pacman &> /dev/null; then
+    #sudo pacman -Sy --noconfirm base-devel git curl wget openssl zlib
+#elif command -v dnf &> /dev/null; then
+   # sudo dnf install -y gcc gcc-c++ make git curl wget zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel
 if command -v apt &> /dev/null; then
-    sudo apt update && sudo apt install -y git curl wget build-essential libbz2-dev libssl-dev libreadline-dev libsqlite3-dev zlib1g-dev
+    sudo apt update && sudo apt install -y git curl wget build-essential \
+        libbz2-dev libssl-dev libreadline-dev libsqlite3-dev zlib1g-dev tk-dev liblzma-dev
 elif command -v pacman &> /dev/null; then
-    sudo pacman -Sy --noconfirm base-devel git curl wget openssl zlib
+    sudo pacman -Sy --noconfirm base-devel git curl wget openssl zlib tk xz
 elif command -v dnf &> /dev/null; then
-    sudo dnf install -y gcc gcc-c++ make git curl wget zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel
+    sudo dnf install -y gcc gcc-c++ make git curl wget \
+        zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel \
+        openssl-devel tk-devel xz-devel
 elif command -v emerge &> /dev/null; then
     sudo emerge --ask dev-vcs/git dev-lang/python curl wget
 else
@@ -23,10 +32,26 @@ echo "📦 Installing pyenv..."
 
 # Install pyenv
 if [ -d "$HOME/.pyenv" ]; then
-    echo "🔁 pyenv already installed"
+echo "🔁 pyenv already installed"
 else
     curl https://pyenv.run | bash
 fi
+
+# --- PATCH: persist pyenv in user shell ---
+for profile in "$HOME/.bashrc" "$HOME/.zshrc" "$HOME/.profile"; do
+    if [ -f "$profile" ] && ! grep -q 'pyenv init' "$profile"; then
+cat >> "$profile" << 'EOF'
+
+# >>> pyenv initialization >>>
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+# <<< pyenv initialization <<<
+
+EOF
+    fi
+done
+# ----------------------------------------
 
 # Set up pyenv environment
 export PYENV_ROOT="$HOME/.pyenv"
