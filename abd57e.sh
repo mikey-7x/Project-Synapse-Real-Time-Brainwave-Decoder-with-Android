@@ -60,4 +60,36 @@ echo "✅ All extended model dependencies installed successfully."
 echo ""
 echo "🧠 To start extended decoder:"
 echo "➡️ pyenv activate tf-env"
-echo "➡️ python abd57e.py"
+echo "
+if ! pyenv versions | grep -q "$ENV_NAME"; then
+    pyenv virtualenv "$PYTHON_VERSION" "$ENV_NAME"
+fi
+
+pyenv activate "$ENV_NAME"
+
+# -------------------------
+# 4. Install Python deps
+# -------------------------
+pip install --upgrade pip
+
+pip install \
+    numpy pandas scipy joblib scikit-learn \
+    xgboost \
+    tensorflow==2.13.1
+
+# -------------------------
+# 5. Fetch program
+# -------------------------
+cd "$HOME"
+wget -O abd57e.py \
+https://raw.githubusercontent.com/mikey-7x/Project-Synapse-Real-Time-Brainwave-Decoder-with-Android/main/abd57e.py
+
+# -------------------------
+# 6. Done
+# -------------------------
+echo ""
+echo "✅ abd57e system is READY"
+echo ""
+echo "Run with:"
+echo "   pyenv activate $ENV_NAME"
+echo "   python abd57e.py"
