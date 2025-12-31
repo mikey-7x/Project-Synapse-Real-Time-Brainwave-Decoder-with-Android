@@ -38,7 +38,11 @@ Quick Install via APT/yay (One-Line Command) and upload Arduino code in your Ard
 >chmod +x abd57e.sh
 >./abd57e.sh
 > ```
-
+to run:
+>```
+>pyenv activate abd57e-env
+>python abd57e.py
+>  ```
 _“Project Synapse — Technology Beyond Boundaries.”_
 
 </kbd>
