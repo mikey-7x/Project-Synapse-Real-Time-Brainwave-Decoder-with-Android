@@ -107,7 +107,7 @@ OR
 
 place electrodes according to below image 
 
-- **Pz** → `T1` (center forehead)
+- **Fz(Pz shown in image is actually Fz)** → `T1` (center forehead)
 - **Fpz** → `T3` (behind the ear at right side of face)
 - **Mastoid** → `T2` (as image front&below of ear)
 
