@@ -38,10 +38,26 @@ Quick Install via APT/yay (One-Line Command) and upload Arduino code in your Ard
 >chmod +x abd57e.sh
 >./abd57e.sh
 > ```
+> 
+> ```
+> export PYENV_ROOT="$HOME/.pyenv"
+> export PATH="$PYENV_ROOT/bin:$PATH"
+> eval "$(pyenv init - bash)"
+> eval "$(pyenv virtualenv-init -)"
+> ```
+OR permanent fix:
+> ```
+>echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+> echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+>echo 'eval "$(pyenv init - bash)"' >> ~/.bashrc
+>echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
+>source ~/.bashrc
+> ```
+
 > ```
 >pyenv activate abd57e-env
 >python abd57e.py
->  ```
+> ```
 _“Project Synapse — Technology Beyond Boundaries.”_
 
 </kbd>
